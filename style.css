@@ -74,6 +74,15 @@ body {
 	text-decoration: none;
 }
 
+.section {
+	padding: 20px 0;
+}
+
+.section:nth-of-type(even) {
+	background: #333;
+	color: #FFF;
+}
+
 /* MEDIA QUERY */
 @media(max-width: 960px) {
 	.container {
